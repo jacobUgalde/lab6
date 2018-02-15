@@ -23,5 +23,5 @@ function changeUser(response) {
 	$('.jumbotron h1').text(response.name);
 	//TODO: fix displaying the image
 	console.log(response);
-	$('#photo').attr('src','response.picture.data.url');
+	$('#photo').attr('src',response.picture.data.url);
 }
